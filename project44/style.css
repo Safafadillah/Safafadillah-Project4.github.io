@@ -1,0 +1,75 @@
+body{
+    background-color: rgb(71, 71, 71);
+    animation-name: safa;
+    animation-duration: 4s;
+}
+@keyframes safa  {
+    from {background-color: #0d153b;}
+    from {background-color: red;}
+    to {background-color: yellow;}
+    to {background-color: blue;}
+    to {background-color: green;}
+  }
+
+.container{
+    max-width: 675px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    background-color: grey;
+    margin-top: 150px;
+    margin-right: 270px;
+    box-shadow: 0 0 20px red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-decoration: red;
+}
+
+h1{
+    margin-bottom: 10px;
+}
+
+h4{
+
+    text-align: center;
+}
+
+.form-grup{ 
+    margin-bottom: 10px;
+}
+
+label{
+    margin-bottom: 5px;
+}
+
+input[type="number"] {
+    width: 180px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0   0 10px rebeccapurple ;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 150px;
+        margin-left: 160px;
+    }
+    input[type="number"] {
+        max-width: 100%;
+    }
+}
